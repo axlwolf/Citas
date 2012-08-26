@@ -1,0 +1,52 @@
+BD->Persona->|->Nombre
+			 |->Apellido
+			 |->Usuario
+			 |->Contraseña
+			 |->CedulaP (Primary Key)
+			 |->Telefono
+			 |->Celular
+			 |->Correo
+			 |->Fecha_registro
+			 |->Hora_registro
+
+DB->Cita->|->Numero (Primary Key)
+		  |->Fecha
+		  |->Hora
+		  |->CedulaC (Foreing Key)
+
+Persona(Nombre,Apellido,Usuario,Contraseña,Cedula,Telefono,Celular,Correo)
+Tiene(CedulaP,CedulaC)
+Cita(Numero,Fecha,Hora,CedulaC)
+
+
+DROP DATABASE IF EXISTS consultas;
+
+CREATE DATABASE consultas;
+
+USE consultas;
+
+DROP TABLE IF EXISTS persona;
+
+CREATE TABLE persona(
+	cedula VARCHAR(10) NOT NULL,
+	nombre VARCHAR(20) NOT NULL,
+	apellido VARCHAR(20) NOT NULL,
+	usuario VARCHAR(8) NOT NULL,
+	contraseña VARCHAR(15) NOT NULL,
+	telefono VARCHAR(12) NOT NULL,
+	celular VARCHAR(12) NOT NULL,
+	correo VARCHAR(50) NOT NULL,
+	UNIQUE (usuario),
+	PRIMARY KEY (cedula)
+)ENGINE=InnoDB;
+
+DROP TABLE IF EXISTS cita;
+
+CREATE TABLE cita(
+	numero INT AUTO_INCREMENT,
+	cedula VARCHAR(10) NOT NULL,
+	fecha DATE NOT NULL,
+	hora TIME NOT NULL,
+	PRIMARY KEY (numero),
+	FOREIGN KEY (cedula) REFERENCES persona (cedula)
+)ENGINE=InnoDB;

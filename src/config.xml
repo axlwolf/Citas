@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<root>
+	<localhost>127.0.0.1</localhost>
+	<mysql_user>root</mysql_user>
+	<mysql_password></mysql_password>
+	<db>consultas</db> 
+	</root>

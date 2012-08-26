@@ -1,0 +1,269 @@
+body{
+	font-family: arial, helvetica;
+	font-size: 10px;
+	background:#666666;
+}
+#wrapper{
+	margin: 0 auto;
+	padding: 0;
+	width: 800px;
+	height: 600px;
+	border-color: red;
+	background-color: none;
+}
+#header{
+	margin: 0;
+	padding: 0;
+	width: 800px;
+	height: 125px;
+	background-color: #0000ff;
+}
+#logo{
+	margin: 0 auto;
+	padding: 0;
+	width: 500px;
+	height: 125px;
+	background-image: url('../img/banner.png');
+    background-repeat: no-repeat;
+	background-position: left;
+	background-color: none;
+	float: left;
+}
+#login{
+	margin: 0;
+	padding: 5px;
+	width: 290px;
+	height: 115px;
+	background-color: #ffffff;
+	text-align: right;
+	float: left;
+}
+#menuregistro{
+	margin:5px 0;
+	padding:5px 0 5px 0;
+	width:800px;
+	height:auto;
+	background-color:#454545;
+	float:left;
+}
+#menuregistro ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#menuregistro ul li{
+	margin:0 0 0 5px;
+	padding:5px;
+	width:780px;
+	text-align:center;
+	background-color:#454545;
+	color:#ffffff;
+	float:left;
+}
+#menuregistro ul li a{
+	text-decoration:none;
+	color:#ffffff;
+}
+#menuregistro ul li:hover{
+	background-color:#000000;
+	color:#ffffff;
+}
+
+#menu{
+	margin:5px 0;
+	padding:5px 0 5px 0;
+	width:800px;
+	height:23px;
+	background-color:#454545;
+	float:left;
+}
+#menu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#menu ul li{
+	margin:0 0 0 5px;
+	padding:5px;
+	background-color:#454545;
+	color:#ffffff;
+	float:left;
+}
+#menu ul li a{
+	text-decoration:none;
+	color:#ffffff;
+}
+#menu ul li:hover{
+	background-color:#000000;
+	color:#ffffff;
+}
+#contenido{
+	margin:0;
+	padding:0;
+	width:800px;
+	height:500px;
+	float:left;
+}
+#opciones{
+	margin:0;
+	padding:0 0 5px 0;
+	width:120px;
+	height:280px;
+	background-color:#454545;
+	text-align:center;
+	float:left;
+}
+#opciones ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#opciones ul li{
+	margin:5px 0 0 5px;
+	padding:5px;
+	width:100px;
+	height:15px;
+	text-align:left;
+	background-color:#454545;
+	color:#ffffff;
+}
+#opciones ul li a{
+	text-decoration:none;
+	color:#ffffff;
+}
+#opciones ul li:hover{
+	background-color:#000000;
+	color:#ffffff;
+}
+#titulocita{
+	margin:0;
+	padding:0;
+	width:680px;
+	height:50px;
+	text-align:center;
+	background-color:#664545;
+	color:#ffffff;
+	float:left;
+}
+#cita{
+	margin:0;
+	padding:5px;
+	width:670px;
+	height:200px;
+	text-align:right;
+	background-color:none;
+	float:left;
+}
+#busuario{
+	padding:10px 0;
+	height:45px;
+	background-color:red;
+	vertical-align:middle;
+}
+#horarios{
+	margin:0;
+	padding:0;
+	width:auto;
+	height: 35px;
+}
+.borde{
+	border:1px white solid;
+}
+.oculto{
+	visibility:hidden;
+}
+.visible{
+	visibility:visible;
+}
+.advertencia{
+	color:red;
+	font-size:10pt;
+	font-weight:bold;
+}
+.advertencia1{
+	color:red;
+	font-size:10pt;
+	
+}
+
+.red{
+	color:red;
+}
+.blue{
+	color:blue;
+}
+.strong{
+	font:strong;
+}
+.fz9{
+	font-size:9px;
+}
+.fz10{
+	font-size:10px;
+}
+.fz11{
+	font-size:11px;
+}
+.fz12{
+	font-size:12px;
+}
+.fz13{
+	font-size:13px;
+}
+.fz14{
+	font-size:14px;
+}
+.fz15{
+	font-size:15px;
+}
+.notextdeco{
+	text-decoration:none;
+}
+.bold{
+	font-weight:bold;
+}
+.curved_all{
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    behavior:url(border-radius.htc);
+}
+.curved_sup_iz {
+    -moz-border-radius: 5px 0 0 0;
+    -webkit-border-radius: 5px 0 0 0;
+    behavior:url(border-radius.htc);
+}
+.curved_inf_iz {
+    -moz-border-radius: 0 0 0 5px;
+    -webkit-border-radius: 0 0 0 5px;
+    behavior:url(border-radius.htc);
+}
+.curved_sup_der {
+    -moz-border-radius: 0 5px 0 0;
+    -webkit-border-radius: 0 5px 0 0;
+    behavior:url(border-radius.htc);
+}
+.curved_inf_der {
+    -moz-border-radius: 0 0 5px 0;
+    -webkit-border-radius: 0 0 5px 0;
+    behavior:url(border-radius.htc);
+}
+.curved_inf {
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    behavior:url(border-radius.htc);
+}
+.curved_sup {
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    behavior:url(border-radius.htc);
+}
+.curved_all_der {
+    -moz-border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 0 5px 5px 0;
+    behavior:url(border-radius.htc);
+}
+.curved_all_iz {
+    -moz-border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    behavior:url(border-radius.htc);
+}
